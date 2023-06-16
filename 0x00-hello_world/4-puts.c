@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
 /*
- * Use the function puts
-*You are not allowed to use printf
-*Your program should end with the value 0
-*/
+ *Use the function puts
+ *You are not allowed to use printf
+ *Your program should end with the value 0
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle\n");

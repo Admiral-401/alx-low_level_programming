@@ -1,21 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - Entry point
- * Description: 'the program's description'
+ * main - Prints all the alphabets.
+ *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-   char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
+	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
 
-   for (int i = 0; i < 26; i++)
-   {
-   putchar(alphabets[i]);
-   }
-   putchar("\n");
-   return (0);
+	for (int i = 0; i < 26; i++)
+	{
+		putchar(alpha[i]);
+	}
+	putchar('\n');
+	return (0);
 }
-2-print_alphabet.c
+
+

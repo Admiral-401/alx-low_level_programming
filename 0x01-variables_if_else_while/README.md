@@ -5,3 +5,4 @@
 6-print_numberz
 7-print_tebahpla
 8-print_base16
+9-print_comb

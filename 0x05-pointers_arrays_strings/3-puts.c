@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * _puts - prints output on stdout precided by a \n
- *
- * returns (0) always success
- *
- **/
+ * _puts - Entry point
+ * 
+ * Description: 'prints a string, followed by a new line'
+ * @parameter: derefrencing
+ * 
+ * Return: Always 0 (Success)
+ */
 
 void _puts(char *str)
 {
-	while(*str != '\0')
-		_puts(str);
+	_puts(str);
 }

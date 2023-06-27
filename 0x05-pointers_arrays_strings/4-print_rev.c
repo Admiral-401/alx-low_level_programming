@@ -6,26 +6,28 @@
  * return void
  *
  **/
+void length(char len);
 
-void print_rev(char *s)
+void print_rev(char *s[])
 {
-   int length, c;
-   char *begin, *end, temp;
- 
-   length = s_length(s);
-   begin  = s;
-   end    = s;
- 
-   for (c = 0; c < length - 1; c++)
-      end++;
- 
-   for (c = 0; c < length/2; c++)
-   {        
-      temp   = *end;
-      *end   = *begin;
-      *begin = temp;
- 
-      begin++;
-      end--;
-   }
+	int temp, i;
+	char s[];
+
+	for (s[i] = 0; <length(s[])/2; s[i]++)
+	{
+		s[i] = s[i length - i - 1];
+			temp = s[i];
+			s[i] = temp;
+	}
+		
+}
+
+void length(char *len)
+{
+	char len;
+
+	while(len = 0 && != '\0')
+	{
+		len++;
+	}
 }

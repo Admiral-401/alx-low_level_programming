@@ -2,17 +2,16 @@
 
 /**
  * _puts - Entry point
- * 
- * Description: 'prints a string, followed by a new line'
- * @parameter: derefrencing
- * 
- * Return: Always 0 (Success)
+ * @str: prints a string, followed by a new line
+ *
+ * Return: void (Success)
  */
 
 void _puts(char *str)
 {
-	while((str = 0) && str != '\n')
+	for (; *str != '\0'; str++)
 	{
-		_puts(str);
+		_putchar(*str);
 	}
+	_putchar('\n');
 }

@@ -1,8 +1,10 @@
 #include "main.h"
 /**
  * swap_int - swaps two integer values
+ * @a: holds value for first int
+ * @b: holds value for second int
  *
- * return (0); Always success
+ * Return: Nothing
  **/
 
 void swap_int(int *a, int *b)

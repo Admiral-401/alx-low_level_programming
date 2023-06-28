@@ -2,18 +2,16 @@
 
 /**
  * _strlen - check length of string
+ * @s: gets the length of string
  *
- * return (length) Always success;
+ * Return: length of string Always success;
  **/
 
 int _strlen(char *s)
 {
-	int length = 0;
-	int i;
+	size_t length = 0;
 
-	for(i = 0; s[i] != 0; i++)
-	{
+	while (*str++)
 		length++;
-	}
 	return (length);
 }

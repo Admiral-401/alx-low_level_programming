@@ -10,3 +10,4 @@
 102-magic
 103-infinite_add.c
 104-print_buffer.c
+0-strcat

@@ -4,3 +4,4 @@
 3-strspn
 4-strpbrk
 5-strstr
+7-print_chessboard

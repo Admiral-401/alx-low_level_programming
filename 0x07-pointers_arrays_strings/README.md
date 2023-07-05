@@ -6,3 +6,4 @@
 5-strstr
 7-print_chessboard
 8-print_diagsums
+100-set_string

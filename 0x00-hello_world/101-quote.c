@@ -1,8 +1,12 @@
+#include <stdlib.h>
 #include <stdio.h>
 
 /*
- *Your program should return 1
- *Your program should compile without any warnings
+ * main - prints error followed by a new line
+ * @: void
+ * Your program should compile without any warnings
+ *
+ * Rerturn: (void)
 */
 int main(void)
 {

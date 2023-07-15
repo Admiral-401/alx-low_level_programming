@@ -2,11 +2,13 @@
 
 /**
  * main - Entry point
- * Description: You are not allowed to use printf
- * return (0); success
+ * @void: doesn't take any arguments
+ *
+ * return: 0;
  **/
+
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }

@@ -1,20 +1,16 @@
 #include <stdio.h>
 
 /**
- * main - Prints all the alphabets.
- *
+ * main - Prints all the alphabets
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alpha;
 
-	for (int i = 0; i < 26; i++)
-	{
-		putchar(alpha[i]);
-	}
+	for (alpha = 'a'; alpha < 'z'; alpha++)
+	putchar(alpha);
 	putchar('\n');
 	return (0);
 }
-
-

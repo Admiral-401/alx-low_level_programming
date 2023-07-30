@@ -5,3 +5,4 @@ Print list \n List length
 2-add_node.c
 3-add_node_end.c
 4-free_list.c
+Print list

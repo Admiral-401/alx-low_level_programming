@@ -1,8 +1,7 @@
 #include"main.h"
 /**
  * print_numbers - prints the numbers, from 0 to 9
- * 
- * Description: This function prints the numbers from 0 to 9 to the standard output.
+ * Description: function prints the numbers from 0 to 9 to stdout
  *
  * Return: Nothing
  */

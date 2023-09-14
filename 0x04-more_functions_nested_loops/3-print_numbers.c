@@ -1,7 +1,8 @@
 #include"main.h"
 /**
  * print_numbers - prints the numbers, from 0 to 9
- * @: takes no param
+ * 
+ * Description: This function prints the numbers from 0 to 9 to the standard output.
  *
  * Return: Nothing
  */
@@ -9,7 +10,7 @@ void print_numbers(void)
 {
 	unsigned int i;
 
-	for (i = 49; i <= 57; i++)
+	for (i = 48; i <= 57; i++)
 	{
 		_putchar(i);
 	}
